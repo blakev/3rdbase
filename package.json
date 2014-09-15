@@ -1,0 +1,34 @@
+{
+	"name": "3rdbase",
+	"version": "0.0.1",
+	"description": "Companion service for the HDHomeRun TV-tuner series.",
+	"author": "Blake VandeMerwe <blakev@null.net>",
+	"dependencies": {
+		"async": "*",
+		"underscore": "*"
+	},
+	"devDependencies": {
+		"mocha": "*"
+	},
+	"scripts": {
+		"test": "mocha test/test*.js",
+		"run": "node src/server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:blakev/3rdbase.git"
+	},
+	"bugs": {
+		"url": "https://github.com/blakev/3rdbase/issues",
+		"email": "blakev@null.net"
+	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": ""
+		}
+	],
+	"keywords": ["tv","tuner","tv-tuner","hdhomerun","homrun","record","cable","mcard","m-card","dvr","pvr"],
+	"engine": "node > 0.10",
+	"main": "src/server.js"
+}
