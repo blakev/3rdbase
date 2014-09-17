@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<title></title>
+		
+		<script src="/socket.io/socket.io.js"></script>
+	
+	</head>
+<body>
+
+<embed type="application/x-vlc-plugin" 
+	   pluginspage="http://www.videolan.org"
+	   src="http://192.168.200.121:5004/auto/v725"
+       width="640"
+       height="480"
+       toolbar="false"
+       id="vlc">
+</embed>
+
+<script type="text/javascript">
+	// var socket = io();
+
+	// socket.on('video frames', function(frames){
+		
+	// 	var theFrame = new Blob([frames], {type: 'image/png', encoding: 'utf-8'});
+	// 	var fr = new FileReader();
+
+	// 	fr.onload = function ( oFRevent ) {
+	// 		var b64 = btoa(decodeURIComponent(escape(atob(oFRevent.target.result.split(',')[1]))));
+	// 		document.getElementById('video').src = 'data:image/png;base64,' + b64
+	// 	}
+
+	// 	fr.readAsText(theFrame, 'utf-8');
+	// });
+</script>
+
+</body>
+</html>
+

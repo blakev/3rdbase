@@ -5,6 +5,9 @@
 	"author": "Blake VandeMerwe <blakev@null.net>",
 	"dependencies": {
 		"async": "*",
+		"binaryjs": "*",
+		"express": "*",
+		"request": "*",
 		"underscore": "*"
 	},
 	"devDependencies": {
