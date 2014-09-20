@@ -1,5 +1,7 @@
 # Extra
 env/*
+bin/*
+.idea/*
 
 # Logs
 logs

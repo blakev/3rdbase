@@ -1,11 +1,16 @@
 {
+    "bin": {
+        "ffmpeg": "ffmpeg.exe"
+    },
+
     "server": {
         "port": 8888,
         "authentication": false
     },
 
     "hdHomeRun": {
-        "ip"           : "192.168.200.199",
+        "ip"           : "192.168.200.121",
+        "protocol"     : "http",
         "streamingPort": 5004,
 
         "pages": {
@@ -26,7 +31,7 @@
                 "access" : "get_cc_url?CableCARD///ca/ca",
                 "details": "get_cc_url?CableCARD///ps/ps",
                 "dsg"    : "get_cc_url?CableCARD///dsg/dsg",
-                "network": "/get_cc_url?CableCARD///ns/ns",
+                "network": "get_cc_url?CableCARD///ns/ns",
                 "pairing": "get_cc_url?CableCARD///cp/auth",
                 "status" : "cc.html"
             },
