@@ -6,8 +6,11 @@
 	"dependencies": {
 		"async": "*",
 		"binaryjs": "*",
+		"cheerio": "*",
+		"ejs": "*",
 		"express": "*",
 		"request": "*",
+		"socket.io": "*",
 		"underscore": "*"
 	},
 	"devDependencies": {
